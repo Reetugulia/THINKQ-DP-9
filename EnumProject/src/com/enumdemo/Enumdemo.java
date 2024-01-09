@@ -7,7 +7,7 @@ class Directions{
 }
 
 public class Enumdemo {
-	public enum Direction{NORTH,SOUTH,EAST,WEST}
+	public enum Direction{NORTH,SOUTH,EAST,WEST};
 	public static void main(String[] args) {
 		Direction d1=Direction.NORTH;
 		System.out.println(d1);
